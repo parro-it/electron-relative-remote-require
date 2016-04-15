@@ -1,6 +1,6 @@
 # electron-relative-remote-require
 
-remote.require an Electron module relative to current one.
+> remote.require an Electron module relative to current one.
 
 [![Travis Build Status](https://img.shields.io/travis/parro-it/electron-relative-remote-require.svg)](http://travis-ci.org/parro-it/electron-relative-remote-require)
 [![NPM module](https://img.shields.io/npm/v/electron-relative-remote-require.svg)](https://npmjs.org/package/electron-relative-remote-require)
