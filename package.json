@@ -6,7 +6,8 @@
   "license": "MIT",
   "author": "parro-it",
   "scripts": {
-    "test": "ava && xo"
+    "test": "ava && xo",
+    "check": "electron fixtures/index.js"
   },
   "keywords": [],
   "engines": {
@@ -17,6 +18,11 @@
   ],
   "devDependencies": {
     "ava": "^0.14.0",
+    "electron-prebuilt": "^0.37.6",
+    "execa": "^0.2.2",
     "xo": "^0.14.0"
+  },
+  "dependencies": {
+    "resolve-from-caller": "^1.0.1"
   }
 }

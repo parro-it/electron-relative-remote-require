@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "electron index.js"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.5"
+  }
+}

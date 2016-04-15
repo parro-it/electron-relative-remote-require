@@ -1,7 +1,7 @@
 import test from 'ava';
-import remoteRequire from './';
+import execa from 'execa';
 
-test('it work!', t => {
-	const result = remoteRequire();
-	t.is(result, 42);
+test('it work!', async (t) => {
+	const result = await execa('electron', ['fixtures/index.js']);
+	t.is(result.stdout, '{"required":"b is required","remoterequired":"b is remote required"}');
 });
